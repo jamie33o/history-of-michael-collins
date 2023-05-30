@@ -12,7 +12,16 @@ body {
 }
 
 /* headings and logo */
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
 
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
 h1, h2{
     font-family: 'Source Serif Pro',sans-serif;
     text-transform: uppercase;

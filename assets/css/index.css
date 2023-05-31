@@ -41,13 +41,16 @@ header {
 }
 
 h1 {
+    font-family: 'Source Serif Pro',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
     text-align: center;
-    margin: 10px 0 20px 0;
-    text-decoration-line: none;
+    margin: 10px 0 50px 0;
     
 }
 
-h1, h2, h3{
+ h2, h3{
     font-family: 'Source Serif Pro',sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -89,13 +92,16 @@ header nav {
     flex: 1;
     padding: 10px;
   }
-#table-contents nav {
+  .table-of-contents-links {
     border: 1.5px solid black;
     width: 280px;
     height: 410px;
     padding-left: 20px;
     margin: 30px 0 0 20px;
+}
 
+.table-of-contents-links h3{
+    margin-top: 10px;
 }
 
 #table-contents ol {
@@ -103,7 +109,7 @@ header nav {
 }
 
 #table-contents li {
-    margin: 10px;
+    margin: 5px;
 }
 
 

@@ -7,11 +7,7 @@
     border: 0;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid black;
-    width: 95%;
-}
+
 
 a {
     text-decoration: none;
@@ -25,6 +21,11 @@ a:hover{
 body {
     font-family: sans-serif, serif;
     color: #3a3a3a;
+}
+
+p {
+    font-size: large;
+    
 }
 
 /* headings and logo */
@@ -42,6 +43,7 @@ header {
 h1 {
     text-align: center;
     margin: 10px 0 20px 0;
+    text-decoration-line: none;
     
 }
 
@@ -50,6 +52,10 @@ h1, h2, h3{
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    text-align: center;
+    margin-bottom: 2px;
+    text-decoration-line: underline;
+    
 }
 
 /*header navigation menu*/
@@ -65,8 +71,6 @@ header nav {
     letter-spacing: 4px;
 }
 
-
-
 #menu li {
     float: left;
     list-style-type: none;
@@ -75,19 +79,22 @@ header nav {
     font-weight: bolder;
 }
 
-
 /*table of contents section*/
 #table-contents {
+    margin-top: 100px;
     display: flex;
-    float: inline-start;
-    margin: 30px 30px;
 }
 
+.column {
+    flex: 1;
+    padding: 10px;
+  }
 #table-contents nav {
     border: 1.5px solid black;
     width: 280px;
+    height: 410px;
     padding-left: 20px;
-    margin-top: 100px;
+    margin: 30px 0 0 20px;
 
 }
 
@@ -99,13 +106,56 @@ header nav {
     margin: 10px;
 }
 
-#center-img {
+
+
+#main-mc-img {
     height:500px;
     width: 500px;
     background: url("../images/michael-collins1.webp") no-repeat center center;
-    background-color: antiquewhite;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+#mc-fact {
+    float: right;
+    border: 1.5px solid black;
+    width: 280px;
+    padding: 10px;
+    margin: 30px 30px 0 0;
+}
+
+
+#mc-fact p {
+    padding: 10px;
+}
+
+
+/*main info section*/
+.main-info-left {
+   float: left;
+}
+
+.main-info-right {
+    float: right;
+}
+
+.main-info-right, .main-info-left {
+    width: 50%;
+    margin: 30px;
+    padding: 20px;    
+    border: 2px solid brown;
+
+}
+
+
+
+
+
+/* @media screen and (max-width: 1200px) {
+    #main-mc-img {
+       display:;
+    
+    }
+} */

@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
+/* clear/set defaults */
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    width: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+a:hover{
+    color: darkgoldenrod;
 }
 
 body {
@@ -12,26 +28,36 @@ body {
 }
 
 /* headings and logo */
+header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
 #logo{
     float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    margin: 30px 0 0 20px;
 }
 
 h1 {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
+    
 }
-h1, h2{
+
+h1, h2, h3{
     font-family: 'Source Serif Pro',sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
-/*navigation menu*/
-#nav-menu {
-    border: 2px solid black;
+/*header navigation menu*/
+
+header nav {
+    display: flex;
+    justify-content: center; 
+    background-color: aliceblue;            
 }
 
 #menu {
@@ -40,8 +66,46 @@ h1, h2{
 }
 
 
+
 #menu li {
     float: left;
     list-style-type: none;
-    margin: 30px 30px 30px 30px;
+    margin: 30px 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+/*table of contents section*/
+#table-contents {
+    display: flex;
+    float: inline-start;
+    margin: 30px 30px;
+}
+
+#table-contents nav {
+    border: 1.5px solid black;
+    width: 280px;
+    padding-left: 20px;
+    margin-top: 100px;
+
+}
+
+#table-contents ol {
+    padding: 10px;
+}
+
+#table-contents li {
+    margin: 10px;
+}
+
+#center-img {
+    height:500px;
+    width: 500px;
+    background: url("../images/michael-collins1.webp") no-repeat center center;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

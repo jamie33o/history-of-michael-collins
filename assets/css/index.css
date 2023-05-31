@@ -133,6 +133,21 @@ header nav {
 
 
 /*main info section*/
+.info-section-left, .info-section-right  {
+    display: flex;
+}
+
+
+.info-section-left img, .info-section-right img {
+    margin: auto auto;
+    height: 280px;
+    
+} 
+
+#signature-img {
+    height: 100px;
+}
+
 .main-info-left {
    float: left;
 }
@@ -146,7 +161,14 @@ header nav {
     margin: 30px;
     padding: 20px;    
     border: 2px solid brown;
+}
 
+.main-info-right, .main-info-left {
+    text-align: center;
+}
+
+.main-info-left img {
+    float: right;
 }
 
 

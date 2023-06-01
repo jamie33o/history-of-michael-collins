@@ -28,6 +28,17 @@ p {
     
 }
 
+h2, h3{
+    font-family: 'Source Serif Pro',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 2px;
+    text-decoration-line: underline;
+    
+}
+
 /* headings and logo */
 header {
     display: flex;
@@ -50,16 +61,7 @@ h1 {
     
 }
 
- h2, h3{
-    font-family: 'Source Serif Pro',sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-    text-align: center;
-    margin-bottom: 2px;
-    text-decoration-line: underline;
-    
-}
+ 
 
 /*header navigation menu*/
 
@@ -112,8 +114,6 @@ header nav {
     margin: 5px;
 }
 
-
-
 #main-mc-img {
     height:500px;
     width: 500px;
@@ -132,26 +132,32 @@ header nav {
     margin: 30px 30px 0 0;
 }
 
-
 #mc-fact p {
     padding: 10px;
 }
 
-
 /*timeline section*/
 #timeline {
     border: 1px solid black;
-    margin: 50px 20px 20px 20px;
+    margin: 50px 35px 20px 35px;
+    position: relative;
 }
+
+#timeline h2 {
+    background-color: white;
+    margin: -19px auto 0 auto;
+    width: fit-content;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
 .info-section-left, .info-section-right  {
     display: flex;
 }
 
-
 .info-section-left img, .info-section-right img {
     margin: auto auto;
     height: 280px;
-    
 } 
 
 #signature-img {

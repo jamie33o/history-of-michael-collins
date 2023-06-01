@@ -84,7 +84,7 @@ header nav {
 
 /*table of contents section*/
 #table-contents {
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
     display: flex;
 }
 
@@ -138,7 +138,11 @@ header nav {
 }
 
 
-/*main info section*/
+/*timeline section*/
+#timeline {
+    border: 1px solid black;
+    margin: 50px 20px 20px 20px;
+}
 .info-section-left, .info-section-right  {
     display: flex;
 }
@@ -177,9 +181,36 @@ header nav {
     float: right;
 }
 
+/*footer*/
+footer {
+    height: 100px;
+    margin: 100px 10px;
+}
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 90%;
+    margin: 50px auto;
+}
 
+.social-media-links {
+    text-align: center;
+}
 
+.social-media-links li{
+    display: inline;
+    margin: 3%;
+
+}
+
+.social-media-links i{
+    font-size: 150%;
+}
+
+.w3c-css-logo {
+    text-align: center;
+   margin-top: 50px;
+}
 
 /* @media screen and (max-width: 1200px) {
     #main-mc-img {

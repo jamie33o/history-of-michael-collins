@@ -117,7 +117,7 @@ header nav {
 #main-mc-img {
     height:500px;
     width: 500px;
-    background: url("../images/michael-collins1.webp") no-repeat center center;
+    background: url("../images/michael-collins1.webp") no-repeat center /cover;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -183,9 +183,7 @@ header nav {
     text-align: center;
 }
 
-.main-info-left img {
-    float: right;
-}
+
 
 /*footer*/
 footer {
@@ -218,9 +216,54 @@ hr {
    margin-top: 50px;
 }
 
-/* @media screen and (max-width: 1200px) {
-    #main-mc-img {
-       display:;
-    
+ @media screen and (max-width: 1200px) {
+    #table-contents {
+        margin: 100px 0 100px 0;
+        display: block;
     }
-} */
+    
+    
+    .column {
+        flex: none;
+        padding: 10px;
+      }
+
+
+      #main-mc-img {
+        height:300px;
+        width: 300px;
+        background: url("../images/michael-collins1.webp") no-repeat center /cover;
+        border-radius: 50%;
+        display: block;
+        margin: 30px auto 30px auto;
+        
+    }
+ 
+
+    #timeline {
+        border: 1px solid black;
+        margin: 0;
+        position: relative;
+    }
+
+    .info-section-left img, .info-section-right img {
+        margin: 10px;
+       
+    } 
+
+    .main-info-left {
+        float: none;
+
+     }
+     
+     .main-info-right {
+         float: none;
+     }
+} 
+
+@media screen and (max-width: 900px) {
+    .info-section-left img, .info-section-right img {
+        margin: 10px;
+       
+    } 
+} 

@@ -254,7 +254,82 @@ hr {
 } 
 
 @media screen and (max-width: 900px) {
-
+    #menu {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 300px;
+        text-align: center;
+        letter-spacing: 2px;
+        margin: auto  auto;
+    }
     
+    #menu li {
+        margin: auto 0 auto 0;
+        list-style-type: none;
+        font-size: large;
+        font-weight: bolder;
+    }
+    #table-contents {
+        margin: 20px 10px 20px 10px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+
+      #main-mc-img {
+        height:300px;
+        width: 300px;
+        margin: 30px auto 30px auto;
+    }
+
+    #mc-fact {
+        width: fit-content;
+        padding: 10px;
+        margin: 30px 0 30px 0;
+    }
+
+    .table-of-contents-links {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        margin: 30px auto 30px auto;
+    }
+
+    #timeline {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 50px 5px 20px 5px;
+    }
+    
+    #timeline h2 {
+        background-color: white;
+        margin: -19px auto 0 auto;
+        width: fit-content;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+    
+    .info-section-left img, .info-section-right img {
+        max-height: 160px;
+        max-width: 200px;
+        margin:  auto ;
+    } 
+
+    .info-section-left, .info-section-right  {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #signature-img {
+        height: 50px;
+    }
+
+    .main-info-right, .main-info-left {
+        width: 80%;
+        margin: auto auto;
+    }
     
 } 

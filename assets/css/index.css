@@ -16,7 +16,7 @@ a {
 
 a:hover{
     color: darkgoldenrod;
-    text-decoration: underline;
+    border-bottom: 2px solid darkgoldenrod;;
 }
 
 body {
@@ -83,7 +83,7 @@ h1 {
 }
 
 .active {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
     
 }
 /*table of contents section*/
@@ -183,10 +183,25 @@ h1 {
     text-align: center;
 
 }
+/*Gallery.html*/
 
-
-
-
+  .gallery {
+    max-width: 95%;
+    margin:30px auto;
+    border: 1px solid #252525;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-evenly;
+    flex-wrap:  wrap;
+    align-items: center;
+  }
+  
+  /*form*/
+  
+  
+  
+  
+  
 
 /*footer*/
 footer {

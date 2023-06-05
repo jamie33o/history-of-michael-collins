@@ -201,7 +201,7 @@ h1 {
     max-width: 200px;
   }
   
-  /*form*/
+  /*form on questions-add-info.html*/
   .form {
     display: flex;
     background: url("../images/mc-funeral.webp");
@@ -214,6 +214,12 @@ h1 {
     padding: 20px;
 }
 
+/*links on more-info.html*/
+.more-info-links {
+    width: 95%;
+    height:500px;
+    border: 1px solid black;
+}
 
 
 .form-fields {

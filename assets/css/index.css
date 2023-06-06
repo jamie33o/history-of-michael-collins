@@ -185,16 +185,15 @@ h1 {
     text-align: center;
 }
 
-.image-block {
+.image-block { 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
-    border: 1px solid black;
 }
 
 .image-block p {
-    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 300px;
     text-align: center;
 }
 

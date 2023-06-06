@@ -149,23 +149,25 @@ h1 {
 
 .info-section-left, .info-section-right  {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    margin: 20px;
 }
+
 .info-section-right {
     flex-direction: row-reverse;
 }
+
 .info-section-left {
     flex-direction: row;
 }
+
 .info-section-left img, .info-section-right img {
     height: 280px;
-    
+    margin: 0 50px 0 50px ;
 } 
 
 #signature-img {
-    height: 100px;
+    height: 50px;
 }
 
 .main-info-left {
@@ -181,12 +183,25 @@ h1 {
     padding: 20px;    
     border: 2px solid brown;   
     text-align: center;
-
 }
+
+.image-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.image-block p {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 /*Gallery.html*/
 
   .gallery {
-    max-width: 95%;
+    max-width: 90%;
     margin:30px auto;
     border: 1px solid #252525;
     display: flex;
@@ -199,6 +214,10 @@ h1 {
 
   .gallery img {
     max-width: 200px;
+  }
+
+  .gallery h2 {
+    text-decoration: none;
   }
   
   /*form on questions-add-info.html*/
@@ -346,12 +365,10 @@ hr {
     .info-section-left img, .info-section-right img {
 
         max-height: 260px;
-        max-width: 300px;
+        max-width: 400px;
     } 
 
-    #signature-img {
-        height: 50px;
-    }
+ 
 } 
 
 /*responsive design for mobile devices*/
@@ -415,7 +432,7 @@ hr {
     
     .info-section-left img, .info-section-right img {
         max-height: 160px;
-        max-width: 200px;
+        max-width: 300px;
         margin: 30px auto ;
     } 
 
@@ -423,10 +440,6 @@ hr {
         display: flex;
         flex-direction: column;
         
-    }
-
-    #signature-img {
-        height: 50px;
     }
 
     .main-info-right, .main-info-left {

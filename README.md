@@ -1,39 +1,26 @@
 ![Logo](assets/images/Michael_Collins_signature.png)
 
-Welcome to, #HISTOTY OF MICHAEL COLLINS
+Welcome to our , 
+# HISTOTY OF MICHAEL COLLINS
 
 This website provides a comprehensive overview of the life and accomplishments of Michael Collins, an influential figure in Irish history. From his role in the Irish War of Independence to his political career, this website aims to educate and inform visitors about the significant contributions made by Michael Collins.
 
 The last update to this file was: **May 11th, 2023**
 
-## Codeanywhere Reminders
+## Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Welcome to the History Michael Collins website! This platform is dedicated to shedding light on the life and achievements of Michael Collins, an Irish revolutionary leader and statesman. Here, you will find a wealth of information and resources about Collins, his role in shaping Irish history, and his enduring legacy.
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Timeline
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The timeline feature offers an interactive visual representation of the significant events in Michael Collins' life. It allows users to navigate through key milestones and gain a better understanding of the chronology of his accomplishments and challenges.
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Gallery
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+For those interested in further exploration, the Gallery section provides some images, documentaries, and websites related to Michael Collins and Irish history. These resources offer additional perspectives and insights into the subject matter.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Questions/Add Info 
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+We welcome contributions from individuals who would like to enhance the website's content and features. Whether you have suggestions for improvement, additional information, or would like to report an issue, please refer to our Questions/add info page and enter the details on the form and submit it.

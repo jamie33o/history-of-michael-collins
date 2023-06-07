@@ -44,6 +44,10 @@ header {
     display: flex;
     flex-direction: column;
   }
+
+  header a:hover {
+    border: none;
+  }
   
 
 #logo{
@@ -57,7 +61,7 @@ h1 {
     letter-spacing: 4px;
     color: #252525;
     text-align: center;
-    margin: 10px 0 50px 0;
+    margin: 70px 0 50px 0;
     
 }
 

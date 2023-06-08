@@ -43,6 +43,7 @@ h2, h3{
 header {
     display: flex;
     flex-direction: column;
+
   }
 
   header a:hover {
@@ -53,6 +54,8 @@ header {
 #logo{
     float: left;
     margin: 30px 0 0 20px;
+    background: url(../images/irish-flag.jpeg) no-repeat  center /cover;
+
 }
 
 h1 {

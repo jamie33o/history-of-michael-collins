@@ -7,12 +7,14 @@ This website provides a comprehensive overview of the life and accomplishments o
 
 The last update to this file was: **May 11th, 2023**
 
+![website on differnt devices](assets/images/different-screen-sizes.png)
+
 ## Features
 In this section we go over the features of the website, and show examples of how it appears on different devices.
 
 
-### Timeline
-The timeline feature offers an interactive visual representation of the significant events in Michael Collins' life. It allows users to navigate through key milestones and gain a better understanding of the chronology of his accomplishments and challenges.
+### Homepage
+The Homepage offers an interactive visual representation of the significant events in Michael Collins' life. It allows users to navigate through key milestones and gain a better understanding of the chronology of his accomplishments and challenges.
 
 ### Gallery
 For those interested in further exploration, the Gallery section provides some images, documentaries, and websites related to Michael Collins and Irish history. These resources offer additional perspectives and insights into the subject matter.
@@ -26,7 +28,7 @@ We welcome contributions from individuals who would like to enhance the website'
 
 - __Header navigation bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Questions/Add Info page, website name and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links trough the Logo, Home page, Gallery and Questions/Add Info page, website name and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](assets/images/website-nav.png)

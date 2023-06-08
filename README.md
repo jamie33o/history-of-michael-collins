@@ -38,34 +38,34 @@ We welcome contributions from individuals who would like to enhance the website'
   - The table of content's has links to each section of the timeline of Michael Collins life
   - This section introduces the user to information about Michael Collins also with an image of Michael Collins and some interesting facts
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/table-of-content.png)
 
 - __Timeline__
 
   - The timeline section has multiple seperate paragraghs leading the user through Michael Collins life. 
   - There is an image relating to each paragraph with a description so the user can really get a feel for Michael Collins life. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](assets/images/timeline-section.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for the History of Michael Collins. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/footer.png)
 
 - __Gallery__
 
   - The gallery will provide the user with supporting images with description and also embeded youtube documentary videos to provided more insight into Collins life. 
   - This section is valuable to the user as they will get a lot more information about collins and a better feel for what it was like in collins time. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](assets/images/gallery-images.png)
 
 - __Questions/Add info__
 
   - This page will allow the user submit more info that they think we should add to the site, or ask any question they have. The user will be asked to submit their full name, email address and question or info to be added. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Form for question or to add info](assets/images/form.png)
 
 
 ### Features Left to Implement

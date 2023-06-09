@@ -50,14 +50,21 @@
                  submit it with this form and we will review it and add it to the site.Also if you have any questions submit it trough this form</p>
             
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+            <input class="text-input" type="text" id="name" name="name" required>
             
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+            <input class="text-input" type="email" id="email" name="email_address" required>
             
             <label for="message">Question/info to add</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <textarea class="text-input" id="message" name="message" rows="4" required></textarea>
 
+            <div>
+                <label for="question">Question</label>
+                <input type="radio" id="question" name="question-add-info" value="question" required>
+
+                <label for="add-info">Add Info</label>
+                <input  type="radio" id="add-info" name="question-add-info" value="add-info">
+            </div>
             <input class="submit" type="submit" value="Submit!">
         </form>    
 

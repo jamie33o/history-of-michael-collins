@@ -10,7 +10,7 @@ The last update to this file was: **June 10th, 2023**
 ![website on differnt devices](assets/images/different-screen-sizes.png)
 
 ## Features
-In this section we go over the features of the website, and show examples of how it appears on different devices.
+In this section we go over the features of the website, and show examples of the different sections.
 
 
 ### Homepage
@@ -125,9 +125,9 @@ Here we credit everywhere we have got content for the website and any code that 
  3. [Documentales Olvidados](https://www.youtube.com/@Documentalesolvidado)
 
 - The images in the gallery were taken from these pages in order
- 1. [Michael collins statue in cork](https://laracurtis.blogspot.com/2021/04/   michael-collins-ireland-history-michael.html)
+ 1. [Michael collins statue in cork](https://laracurtis.blogspot.com/2021/04/michael-collins-ireland-history-michael.html)
  2. [Micheal collins giving a speech](https://www.pinterest.jp/pin/museum-all-about-michael-collins-to-open-on-easter-saturday--128915608061888154/)
- 3. [Michael collins bein interviewed by press](https://www.pinterest.com/pin/421086633909672221/)
+ 3. [Michael collins being interviewed by press](https://www.pinterest.com/pin/421086633909672221/)
  4. [An eerie last photo of collins, worried about the camera's shutter noise as he's grabbing for his gun](https://www.pinterest.com/pin/454300681146697950/)
 
 ### Code 

@@ -5,7 +5,7 @@ Welcome to,
 
 This website provides a comprehensive overview of the life and accomplishments of Michael Collins, an influential figure in Irish history. From his role in the Irish War of Independence to his political career, this website aims to educate and inform visitors about the significant contributions made by Michael Collins. Here, you will find a wealth of information and resources about Collins, his role in shaping Irish history, and his enduring legacy.
 
-The last update to this file was: **May 11th, 2023**
+The last update to this file was: **June 10th, 2023**
 
 ![website on differnt devices](assets/images/different-screen-sizes.png)
 
@@ -38,14 +38,14 @@ We welcome contributions from individuals who would like to enhance the website'
   - The table of content's has links to each section of the timeline of Michael Collins life
   - This section introduces the user to information about Michael Collins also with an image of Michael Collins and some interesting facts
 
-![Landing Page](assets/images/table-of-content.png)
+![table of content](assets/images/table-of-content.png)
 
 - __Timeline__
 
   - The timeline section has multiple seperate paragraghs leading the user through Michael Collins life. 
   - There is an image relating to each paragraph with a description so the user can really get a feel for Michael Collins life. 
 
-![Club Ethos](assets/images/timeline-section.png)
+![timeline section](assets/images/timeline-section.png)
 
 - __The Footer__ 
 
@@ -74,13 +74,15 @@ We welcome contributions from individuals who would like to enhance the website'
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+During the testing phase, comprehensive evaluations were conducted on the website to ensure its functionality, usability, and performance. A series of rigorous tests were performed, encompassing various aspects such as user interface, navigation, responsiveness, and data validation. By meticulously exploring the website's features and functionalities, we aimed to identify any potential issues or bugs that might hinder its optimal performance.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The testing process involved both manual and automated techniques. Manual testing allowed for a hands-on examination of the website's interface, user interactions, and overall user experience. This approach enabled us to detect any visual anomalies, usability concerns, or inconsistencies in the flow of the application.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Automated testing was employed to ensure the stability and reliability of the website across different browsers, devices, and operating systems. By utilizing testing frameworks and tools, we executed a comprehensive suite of automated tests to verify the website's compatibility, responsiveness, and adherence to web standards.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Throughout the testing phase, any issues discovered were diligently documented and reported. This documentation includes clear descriptions of the problems, steps to reproduce them, and their impact on the website's functionality. The identified issues were then addressed by the development team, followed by retesting to confirm the effectiveness of the resolutions.
+
+By performing rigorous testing on the website, we have taken significant steps towards delivering a robust and high-quality user experience. The insights gained from the testing process have not only helped identify and resolve issues but have also contributed to enhancing the overall performance and usability of the website.
 
 
 ### Validator Testing 
@@ -92,7 +94,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
 
 ## Deployment
 
@@ -108,20 +110,29 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Here we credit everywhere we have got content for the website and any code that was taken from other sources.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from ChatGPT.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Videos in the gallery where taken from Youtube here is the links in order
+ 1. [Michael Collins House Museum](https://www.youtube.com/@michaelcollinshouse)
+ 2. [Diolún Ó hUigínn](https://www.youtube.com/@Dioluin)
+ 3. [Documentales Olvidados](https://www.youtube.com/@Documentalesolvidado)
 
+- The images in the gallery were taken from these pages in order
+ 1. [Michael collins statue in cork](https://laracurtis.blogspot.com/2021/04/   michael-collins-ireland-history-michael.html)
+ 2. [Micheal collins giving a speech](https://www.pinterest.jp/pin/museum-all-about-michael-collins-to-open-on-easter-saturday--128915608061888154/)
+ 3. [Michael collins bein interviewed by press](https://www.pinterest.com/pin/421086633909672221/)
+ 4. [An eerie last photo of collins, worried about the camera's shutter noise as he's grabbing for his gun](https://www.pinterest.com/pin/454300681146697950/)
 
-Thank you for visiting the Michael Collins Irish History website! We hope that this platform enriches your understanding of this remarkable figure and his significant contributions to Irish history.
+### Code 
+
+- Part of the code in the footer was taken from the love running walktrough tutorial on Code Institue.
+- Part of the code in the form section was taken from love running walktrough tutorial on Code Institue.
+
+Thank you for visiting the History Michael Collins website! We hope that this platform enriches your understanding of this remarkable figure and his significant contributions to Irish history.

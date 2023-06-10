@@ -49,7 +49,6 @@ header {
   header a:hover {
     border: none;
   }
-  
 
 #logo{
     float: left;
@@ -80,6 +79,11 @@ h1 {
     background-color: aliceblue;   
     font-size: 110%;
     letter-spacing: 4px;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid darkgoldenrod;;
+
 }
 
 #menu li {
@@ -232,6 +236,8 @@ h1 {
   .content p {
     max-width: 350px;
   }
+
+  
 
   .gallery img {
     max-height: 200px;

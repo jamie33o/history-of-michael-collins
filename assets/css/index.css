@@ -7,8 +7,6 @@
     border: 0;
 }
 
-
-
 a {
     text-decoration: none;
     color: #3a3a3a;
@@ -26,7 +24,6 @@ body {
 
 p {
     font-size: large;
-    
 }
 
 h2, h3{
@@ -43,7 +40,6 @@ h2, h3{
 header {
     display: flex;
     flex-direction: column;
-
   }
 
   header a:hover {
@@ -54,7 +50,6 @@ header {
     float: left;
     margin: 30px 0 0 20px;
     background: url(../images/irish-flag.jpeg) no-repeat  center /cover;
-
 }
 
 h1 {
@@ -64,13 +59,9 @@ h1 {
     color: #252525;
     text-align: center;
     margin: 70px 0 50px 0;
-    
 }
 
- 
-
 /*header navigation menu*/
-
 #menu {
     margin: 0 100px 0 100px;
     display: flex;
@@ -82,8 +73,7 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid darkgoldenrod;;
-
+    border-bottom: 2px solid darkgoldenrod;
 }
 
 #menu li {
@@ -135,7 +125,6 @@ h1 {
     border: 1.5px solid black;
     width: 280px;
     padding: 10px;
-   
 }
 
 #mc-fact p {
@@ -216,7 +205,6 @@ h1 {
     max-width: 90%;
     margin:30px auto;
     border: 1px solid #252525;
-   
   }
 
   .gallery .content {
@@ -226,7 +214,6 @@ h1 {
     align-items: center;
     padding: 20px;
     gap: 5rem;
-
   }
  
   .content div {
@@ -236,8 +223,6 @@ h1 {
   .content p {
     max-width: 350px;
   }
-
-  
 
   .gallery img {
     max-height: 200px;
@@ -250,8 +235,6 @@ h1 {
     margin: -15px auto 0 auto;
     background-color: white;
     width: fit-content;
-    
-    
   }
   
   /*form on questions-add-info.html*/
@@ -274,7 +257,6 @@ h1 {
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
-
 
 .text-input:hover {
     border-color: #f16c6b;
@@ -339,7 +321,6 @@ hr {
 .social-media-links li{
     display: inline;
     margin: 3%;
-
 }
 
 .social-media-links i{
@@ -353,9 +334,7 @@ hr {
 
 /*reponsive design for tablets*/
 @media screen and (max-width: 1200px) {
-
-  
-
+ 
     #table-contents {
         margin: 20px 0 20px 0;
         flex-direction: column-reverse;
@@ -381,15 +360,11 @@ hr {
         padding: 10px;
         margin: 30px auto 30px auto;
     }
-
-    
+   
     .info-section-left img, .info-section-right img {
-
         max-height: 260px;
         max-width: 400px;
     } 
-
- 
 } 
 
 /*responsive design for mobile devices*/
@@ -410,12 +385,12 @@ hr {
         font-size: large;
         font-weight: bolder;
     }
+
     #table-contents {
         margin: 20px 10px 20px 10px;
         flex-direction: column-reverse;
         justify-content: center;
     }
-    
 
       #main-mc-img {
         height:300px;
@@ -460,7 +435,6 @@ hr {
     .info-section-left, .info-section-right  {
         display: flex;
         flex-direction: column;
-        
     }
 
     .main-info-right, .main-info-left {

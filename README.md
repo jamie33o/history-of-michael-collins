@@ -88,9 +88,9 @@ By performing rigorous testing on the website, we have taken significant steps t
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator]()
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator]()
 
 ### Unfixed Bugs
 
@@ -119,7 +119,7 @@ Here we credit everywhere we have got content for the website and any code that 
 
 ### Media
 
-- Videos in the gallery where taken from Youtube here is the links in order
+- Videos in the gallery where taken from Youtube here is the links to eace channel in order
  1. [Michael Collins House Museum](https://www.youtube.com/@michaelcollinshouse)
  2. [Diolún Ó hUigínn](https://www.youtube.com/@Dioluin)
  3. [Documentales Olvidados](https://www.youtube.com/@Documentalesolvidado)

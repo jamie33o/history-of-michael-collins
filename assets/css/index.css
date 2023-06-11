@@ -37,12 +37,12 @@ h2, h3{
 }
 
 /* header, h1 and logo */
-header {
+#main-nav {
     display: flex;
     flex-direction: column;
   }
 
-  header a:hover {
+  #main-nav a:hover {
     border: none;
   }
 
@@ -87,7 +87,7 @@ h1 {
     border-bottom: 2px solid black;
     
 }
-/*table of contents section*/
+/*table of contents header*/
 #table-contents {
     display: flex;
     justify-content: space-evenly;
@@ -193,7 +193,7 @@ h1 {
     justify-content: center;
 }
 
-.image-block p {
+.image-block figcaption {
     margin: 0 auto;
     max-width: 300px;
     text-align: center;
@@ -216,11 +216,11 @@ h1 {
     gap: 5rem;
   }
  
-  .content div {
+  .content figure {
     text-align: center;
   }
 
-  .content p {
+  .content figcaption {
     max-width: 350px;
   }
 

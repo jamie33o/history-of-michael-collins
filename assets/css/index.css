@@ -369,7 +369,7 @@ hr {
         margin: 30px auto 30px auto;
     }
    
-    .info-section-left img, .info-section-right img {
+    .container-left img, .container-right img {
         max-height: 260px;
         max-width: 400px;
     } 
@@ -442,13 +442,13 @@ hr {
         font-size: xx-large;
     }
     
-    .info-section-left img, .info-section-right img {
+    .container-left img, .container-right img {
         max-height: 160px;
         max-width: 300px;
         margin: 30px auto ;
     } 
 
-    .info-section-left, .info-section-right  {
+    .container-left, .container-right  {
         display: flex;
         flex-direction: column;
     }

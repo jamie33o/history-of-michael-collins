@@ -330,7 +330,14 @@ hr {
 
 .w3c-css-logo {
     text-align: center;
-   margin-top: 50px;
+    margin-top: 50px;
+}
+
+.w3c-css-logo {
+    margin: 40px auto 0 auto;
+    border:0;
+    width:88px;
+    height:31px;
 }
 
 /*reponsive design for tablets*/

@@ -147,21 +147,21 @@ h1 {
     font-size: xx-large;
 }
 
-.info-section-left, .info-section-right  {
+.container-left, .container-right  {
     display: flex;
     justify-content: space-between;
     margin: 20px;
 }
 
-.info-section-right {
+.container-right {
     flex-direction: row-reverse;
 }
 
-.info-section-left {
+.container-left {
     flex-direction: row;
 }
 
-.info-section-left img, .info-section-right img {
+.container-left img, .container-right img {
     height: 280px;
     margin: 0 50px 0 50px;
     border-radius: 5%;
@@ -377,7 +377,7 @@ hr {
         margin-left: auto; 
         margin-right: auto; 
     }
-    
+
     #menu {
         display: flex;
         flex-direction: column;

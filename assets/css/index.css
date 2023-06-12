@@ -262,10 +262,6 @@ h1 {
     border-color: #f16c6b;
 }
 
-.form textarea {
-    height: 80px;
-}
-
 .form-fields {
     display: flex;
     flex-direction: column;
@@ -285,6 +281,11 @@ h1 {
 .form-fields > p {
     color: #fafafa;
     margin-bottom: 40px;
+}
+
+.form-fields textarea {
+    height: 100px;
+    
 }
 
 .submit {
@@ -369,6 +370,14 @@ hr {
 
 /*responsive design for mobile devices*/
 @media screen and (max-width: 900px) {
+    #logo{
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    
     #menu {
         display: flex;
         flex-direction: column;

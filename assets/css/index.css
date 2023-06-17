@@ -33,8 +33,12 @@ h2, h3{
     color: #252525;
     text-align: center;
     margin-bottom: 2px;
-    text-decoration-line: underline;
 }
+
+h3 {
+    text-decoration: underline;
+}
+
 
 /* header, h1 and logo */
 #main-nav {
@@ -339,6 +343,21 @@ hr {
     width:88px;
     height:31px;
 }
+
+/* 404-page */
+
+#center-text{
+    text-align: center;
+}
+
+.return-to-home {
+    margin-top: 20px;
+}
+
+.return-to-home a {
+    font-size: 2rem;
+}
+
 
 /*reponsive design for tablets*/
 @media screen and (max-width: 1200px) {

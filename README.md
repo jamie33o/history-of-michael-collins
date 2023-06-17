@@ -86,7 +86,7 @@ In this section we go over the features of the website, and show examples of the
 ### Existing Features
 - Responsive design
 - Contact form and success page
-- 
+
 
 ### Features Left to Implement
 

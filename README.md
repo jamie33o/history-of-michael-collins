@@ -7,23 +7,10 @@ This website provides a comprehensive overview of the life and accomplishments o
 
 The last update to this file was: **June 10th, 2023**
 
-![website on differnt devices](assets/images/different-screen-sizes.png)
+![website on differnt devices](docs/readme_images/different-screen-sizes.png)
 
 ## Features
 In this section we go over the features of the website, and show examples of the different sections.
-
-
-### Homepage
-The Homepage offers an interactive visual representation of the significant events in Michael Collins' life. It allows users to navigate through key milestones and gain a better understanding of the chronology of his accomplishments and challenges.
-
-### Gallery
-For those interested in further exploration, the Gallery section provides some images, documentaries, and websites related to Michael Collins and Irish history. These resources offer additional perspectives and insights into the subject matter.
-
-### Questions/Add Info 
-We welcome contributions from individuals who would like to enhance the website's content and features. Whether you have suggestions for improvement, additional information, or would like to report an issue, please refer to our Questions/add info page and enter the details on the form and submit it.
-
-### Existing Features
-
 
 
 - __Header navigation bar__
@@ -31,42 +18,75 @@ We welcome contributions from individuals who would like to enhance the website'
   - Featured on all three pages, the full responsive navigation bar includes links trough the Logo, Home page, Gallery and Questions/Add Info page, website name and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](assets/images/header-nav.png)
-
-- __Table of contents section__
-
-  - The table of content's has links to each section of the timeline of Michael Collins life
-  - This section introduces the user to information about Michael Collins also with an image of Michael Collins and some interesting facts
-
-![table of content](assets/images/table-of-content.png)
-
-- __Timeline__
-
-  - The timeline section has multiple seperate paragraghs leading the user through Michael Collins life. 
-  - There is an image relating to each paragraph with a description so the user can really get a feel for Michael Collins life. 
-
-![timeline section](assets/images/timeline-section.png)
+![Nav Bar](docs/readme_images/nav-bar.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for the History of Michael Collins. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](assets/images/footer.png)
+![Footer](docs/readme_images/footer.png)
 
-- __Gallery__
+- __Favicon__ 
 
-  - The gallery will provide the user with supporting images with description and also embeded youtube documentary videos to provided more insight into Collins life. 
+  - The Favicon is the website's logo and will be on each page of the website it will use different sized favicon for different devices. 
+  - This will show in the tabs header and allow the user to identify the website if they have multiple browser tabs open.
+
+![Favicon](docs/readme_images/favicon.png)
+
+- __404 page__ 
+
+  - A 404 page will will display if a user navigates to a broken link. 
+  - The 404 page will allow the user to navigate back to the main website if they direct to a broken link/issing page, without the need of the browsers back button.
+
+![404 page](docs/readme_images/404.png)
+
+
+### Homepage
+- The Homepage offers an interactive visual representation of the significant events in Michael Collins' life. 
+- It allows users to navigate through key milestones and gain a better understanding of the chronology of his accomplishments and challenges.
+
+- __Table of contents section__
+
+  - The table of content's has links to each section of the timeline of Michael Collins life
+  - This section introduces the user to information about Michael Collins also with an image of Michael Collins and some interesting facts
+
+![table of content](docs/readme_images/table-of-contents.png)
+
+- __Timeline section__
+
+  - The timeline section has multiple seperate paragraghs leading the user through Michael Collins life. 
+  - There is an image relating to each paragraph with a description so the user can really get a feel for Michael Collins life. 
+
+![timeline section1](docs/readme_images/timeline-section1.png)
+![timeline section2](docs/readme_images/timeline-section2.png)
+![timeline section3](docs/readme_images/timeline-section3.png)
+![timeline section4](docs/readme_images/timeline-section4.png)
+
+### Gallery
+
+- The gallery will provide the user with supporting images with description and also embeded youtube documentary videos to provided more insight into Collins life. 
   - This section is valuable to the user as they will get a lot more information about collins and a better feel for what it was like in collins time. 
 
-![Gallery](assets/images/gallery-images.png)
+![Gallery](docs/readme_images/gallery.png)
 
-- __Questions/Add info__
+### Questions/Add Info 
 
-  - This page will allow the user submit more info that they think we should add to the site, or ask any question they have. The user will be asked to submit their full name, email address and question or info to be added. 
+- This page will allow the user submit more info that they think we should add to the site, or ask any question they have. 
+- On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.. 
+-  The form will consist of the following fields and attributes:
+  - First Name (required, type=text)
+  - Last Name (required, type=text)
+  - Email (required, type=email)
+  - Message (required, type=textarea)
 
-![Form for question or to add info](assets/images/form.png)
+![Questions/Add Info](docs/readme_images/form.png)
+![Questions/Add Info](docs/readme_images/thank-you.png)
 
+### Existing Features
+- Responsive design
+- Contact form and success page
+- 
 
 ### Features Left to Implement
 

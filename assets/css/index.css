@@ -166,7 +166,7 @@ h1 {
 }
 
 .container-left img, .container-right img {
-    height: 280px;
+    max-height: 280px;
     margin: 0 50px 0 50px;
     border-radius: 5%;
     margin-bottom: 10px;
@@ -428,8 +428,8 @@ hr {
     }
 
       #main-mc-img {
-        height:300px;
-        width: 300px;
+        max-height:200px;
+        max-width: 200px;
         margin: 30px auto 30px auto;
     }
 
@@ -461,11 +461,15 @@ hr {
         font-size: xx-large;
     }
     
-    .container-left img, .container-right img {
-        max-height: 160px;
-        max-width: 300px;
+    .container-left img, .container-right img, .gallery img {
+        max-height: 200px;
+        max-width: 200px;
         margin: 30px auto ;
     } 
+    .gallery iframe {
+        max-width: 230px;
+        max-height: 150px;
+    }
 
     .container-left, .container-right  {
         display: flex;

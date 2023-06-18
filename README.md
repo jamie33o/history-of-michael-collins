@@ -37,7 +37,7 @@ In this section we go over the features of the website, and show examples of the
 - __404 page__ 
 
   - A 404 page will will display if a user navigates to a broken link. 
-  - The 404 page will allow the user to navigate back to the main website if they direct to a broken link/issing page, without the need of the browsers back button.
+  - The 404 page will allow the user to navigate back to the main website if they direct to a broken link/missing page, without the need of the browsers back button.
 
 ![404 page](docs/readme_images/404.png)
 
@@ -66,17 +66,16 @@ In this section we go over the features of the website, and show examples of the
 ### Gallery
 
 - The gallery will provide the user with supporting images with description and also embeded youtube documentary videos to provided more insight into Collins life. 
-  - This section is valuable to the user as they will get a lot more information about collins and a better feel for what it was like in collins time. 
+- This section is valuable to the user as they will get a lot more information about collins and a better feel for what it was like in collins time. 
 
 ![Gallery](docs/readme_images/gallery.png)
 
 ### Questions/Add Info 
 
 - This page will allow the user submit more info that they think we should add to the site, or ask any question they have. 
-- On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.. 
+- On successful submission of the contact form, the user will be navigated to thank-you.html displaying a success message.. 
 -  The form will consist of the following fields and attributes:
-  - First Name (required, type=text)
-  - Last Name (required, type=text)
+  - Name (required, type=text)
   - Email (required, type=email)
   - Message (required, type=textarea)
 
@@ -86,6 +85,9 @@ In this section we go over the features of the website, and show examples of the
 ### Existing Features
 - Responsive design
 - Contact form and success page
+- 404 Error page
+- Gallery with images and embeded youtube documentaries
+
 
 
 ### Features Left to Implement
@@ -94,15 +96,51 @@ In this section we go over the features of the website, and show examples of the
 
 ## Testing 
 
-During the testing phase, comprehensive evaluations were conducted on the website to ensure its functionality, usability, and performance. A series of rigorous tests were performed, encompassing various aspects such as user interface, navigation, responsiveness, and data validation. By meticulously exploring the website's features and functionalities, we aimed to identify any potential issues or bugs that might hinder its optimal performance.
+### Responsiveness
 
-The testing process involved both manual and automated techniques. Manual testing allowed for a hands-on examination of the website's interface, user interactions, and overall user experience. This approach enabled us to detect any visual anomalies, usability concerns, or inconsistencies in the flow of the application.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in ![WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
-Automated testing was employed to ensure the stability and reliability of the website across different browsers, devices, and operating systems. By utilizing testing frameworks and tools, we executed a comprehensive suite of automated tests to verify the website's compatibility, responsiveness, and adherence to web standards.
+Steps to test:
 
-Throughout the testing phase, any issues discovered were diligently documented and reported. This documentation includes clear descriptions of the problems, steps to reproduce them, and their impact on the website's functionality. The identified issues were then addressed by the development team, followed by retesting to confirm the effectiveness of the resolutions.
+1. Open browser and navigate to [History of Michael Collins](https://jamie33o.github.io/history-of-michael-collins/ )
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+6. Expected:
 
-By performing rigorous testing on the website, we have taken significant steps towards delivering a robust and high-quality user experience. The insights gained from the testing process have not only helped identify and resolve issues but have also contributed to enhancing the overall performance and usability of the website.
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+Oukitel C21 Pro
+TCL 30 Pro
+iPhone SE
+Samsung Galaxy Tablet
+Accessibility
+Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
+Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+All not textual content had alternative text or titles so descriptions are read out to screen readers
+HTML page lang attribute has been set
+Aria properties have been implemented correctly
+WCAG 2.1 Coding best practices being followed
+
+
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+
+Issue #1: Some images were'nt resizing and were overflowing 
+
+Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
 
 
 ### Validator Testing 
@@ -155,4 +193,4 @@ Here we credit everywhere we have got content for the website and any code that 
 - Part of the code in the footer was taken from the love running walktrough tutorial on Code Institue.
 - Part of the code in the form section was taken from love running walktrough tutorial on Code Institue.
 
-Thank you for visiting the History Michael Collins website! We hope that this platform enriches your understanding of this remarkable figure and his significant contributions to Irish history.
+Thank you for visiting the History Michael Collins website! We hope that this website enriches your understanding of this remarkable figure and his significant contributions to Irish history.

@@ -49,29 +49,33 @@
 
     <!--Form for questions or for user to send more info they think should be added-->
     
-        <form class="form-fields" method = "GET" action= "thank-you.html">
-            <h2>Have a Question or info you think we should add</h2>
-            <p>If you have more info or a link to more info you think we should add,
-                 submit it with this form and we will review it and add it to the site.Also if you have any questions submit it trough this form</p>
-            
-            <label for="name">Name</label>
-            <input class="text-input" type="text" id="name" placeholder="Enter your Full Name..." name="name" required>
-            
-            <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" placeholder="Enter your Email..." name="email_address" required>
-            
-            <label for="message">Question/info to add</label>
-            <textarea class="text-input" id="message" placeholder="Enter Question, link to more info or info you think we should add..." name="message" required></textarea>
+        <form  method = "GET" action= "thank-you.html">
+            <fieldset class="form-fields">
+                <legend>Personalia:</legend>
+                <h2>Have a Question or info you think we should add</h2>
+                <p>If you have more info or a link to more info you think we should add,
+                    submit it with this form and we will review it and add it to the site.Also if you have any questions submit it trough this form</p>
+                
+                <label for="name">Name</label>
+                <input class="text-input" type="text" id="name" placeholder="Enter your Full Name..." name="name" required>
+                
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" placeholder="Enter your Email..." name="email_address" required>
+                
+                <label for="message">Question/info to add</label>
+                <textarea class="text-input" id="message" placeholder="Enter Question, link to more info or info you think we should add..." name="message" required></textarea>
 
-            <div>
-                <label for="question">Question</label>
-                <input type="radio" id="question" name="question/add-info" value="question" required>
+                <div>
+                    <label for="question">Question</label>
+                    <input type="radio" id="question" name="question/add-info" value="question" required>
 
-                <label for="add-info">Add Info</label>
-                <input  type="radio" id="add-info" name="question/add-info" value="add-info">
-            </div>
-            <input class="submit" type="submit" value="Submit!">
-        </form>    
+                    <label for="add-info">Add Info</label>
+                    <input  type="radio" id="add-info" name="question/add-info" value="add-info">
+                </div>
+      
+                 <input class="submit" type="submit" value="Submit!">
+              </fieldset>
+            </form>    
 
     </main>
 

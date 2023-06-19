@@ -122,8 +122,8 @@ TCL 30 Pro
 iPhone SE
 Samsung Galaxy Tablet
 
-
 ## Accessibility
+
 ![Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 Testing was focused to ensure the following criteria were met:
@@ -140,9 +140,17 @@ WCAG 2.1 Coding best practices being followed
 
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: Some images were'nt resizing and were overflowing when device size was 320px.
+Issue #1: Social media links in the footer had no text to explain what they link to.
 
-Fix: changed max width and max height in media query at devices under 900px.
+Fix: added aria-label with name of site they link too.
+
+Issue #2: some alt text for images was'nt descriptive.
+
+Fix: change the alt text to better describe the image.
+
+Issue #3: On the homepage the there was h3 tag before the h2 tag.
+
+Fix: change the h3 to h2 and resized the text with css.
 
 
 

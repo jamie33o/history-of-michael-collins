@@ -121,8 +121,10 @@ Oukitel C21 Pro
 TCL 30 Pro
 iPhone SE
 Samsung Galaxy Tablet
-Accessibility
-Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+
+## Accessibility
+![Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 Testing was focused to ensure the following criteria were met:
 

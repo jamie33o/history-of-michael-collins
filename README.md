@@ -203,15 +203,37 @@ Fix: change the h3 to h2 and resized the text with css.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+### Version Control
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘history-of-michael-collins’.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The following git commands were used throughout development to push code to the remote repo:
+
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+git push - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully.
 
 The live link can be found here - https://jamie33o.github.io/history-of-michael-collins/ 
 
+
+
+### Clone the Repository Code Locally
+- Navigate to the GitHub Repository you want to clone to use locally:
+  - Click on the code drop down button
+  - Click on HTTPS
+  - Copy the repository link to the clipboard
+  - Open your IDE of choice (git must be installed for the next steps)
+  - Type git clone copied-git-url into the IDE terminal
+  - The project will now of been cloned on your local machine for use.
 
 ## Credits 
 

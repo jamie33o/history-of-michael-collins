@@ -94,6 +94,37 @@ In this section we go over the features of the website, and show examples of the
 
 - Another feature idea we are thinking of implementing is another page for links to more information on collins and maybe more influenical irish figures in history.
 
+## Design
+
+### Wireframes
+
+Homepage
+
+![wireframe design for large screen](docs/readme_images/wireframe-laptop.png)
+![wireframe design for large screen](docs/readme_images/wireframe-laptop.png)
+
+## Technologies
+
+- HTML
+  - The structure of the Website was developed using HTML as the main language.
+- CSS
+  - The Website was styled using custom CSS in an external file.
+-Visual Studio Code
+  - The website was developed using Visual Studio Code IDE
+- GitHub
+  - Source code is hosted on GitHub and delpoyed using Git Pages.
+- Git
+  - Used to commit and push code during the development opf the Website
+- Font Awesome
+  - Icons obtained from ![fontawesome](https://fontawesome.com/) were used as the Social media links in the footer section.
+- Tinyjpg
+  - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+- Favicon.io
+  - favicon files were created at ![favicon.io](fahttps://favicon.io/favicon-converter/)
+- balsamiq
+  - wireframes were created using balsamiq from ![balsamiq.com](https://balsamiq.com/wireframes/desktop/#)
+
+
 ## Testing 
 
 ### Responsiveness

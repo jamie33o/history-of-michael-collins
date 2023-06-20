@@ -5,9 +5,9 @@ Welcome to,
 
 This website provides a comprehensive overview of the life and accomplishments of Michael Collins, an influential figure in Irish history. From his role in the Irish War of Independence to his political career, this website aims to educate and inform visitors about the significant contributions made by Michael Collins. Here, you will find a wealth of information and resources about Collins, his role in shaping Irish history, and his enduring legacy.
 
-The last update to this file was: **June 10th, 2023**
+The last update to this file was: **June 20th, 2023**
 
-![website on differnt devices](docs/readme_images/different-screen-sizes.png)
+![website on differnt devices](docs/readme_images/website-multi-mockup.png)
 
 ## Features
 In this section we go over the features of the website, and show examples of the different sections.

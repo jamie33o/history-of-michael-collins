@@ -101,7 +101,7 @@ In this section we go over the features of the website, and show examples of the
 Homepage
 
 ![wireframe design for large screen](docs/readme_images/wireframe-laptop.png)
-![wireframe design for large screen](docs/readme_images/wireframe-laptop.png)
+![wireframe design for large screen](docs/readme_images/wireframe-tablet-home.png)
 
 ## Technologies
 
@@ -116,20 +116,20 @@ Homepage
 - Git
   - Used to commit and push code during the development opf the Website
 - Font Awesome
-  - Icons obtained from ![fontawesome](https://fontawesome.com/) were used as the Social media links in the footer section.
+  - Icons obtained from [fontawesome](https://fontawesome.com/) were used as the Social media links in the footer section.
 - Tinyjpg
   - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 - Favicon.io
-  - favicon files were created at ![favicon.io](fahttps://favicon.io/favicon-converter/)
+  - favicon files were created at [favicon.io](fahttps://favicon.io/favicon-converter/)
 - balsamiq
-  - wireframes were created using balsamiq from ![balsamiq.com](https://balsamiq.com/wireframes/desktop/#)
+  - wireframes were created using balsamiq from [balsamiq.com](https://balsamiq.com/wireframes/desktop/#)
 
 
 ## Testing 
 
 ### Responsiveness
 
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in ![WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
 Steps to test:
 
@@ -155,7 +155,7 @@ Samsung Galaxy Tablet
 
 ## Accessibility
 
-![Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 Testing was focused to ensure the following criteria were met:
 

@@ -153,6 +153,23 @@ TCL 30 Pro
 iPhone SE
 Samsung Galaxy Tablet
 
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie33o.github.io%2Fhistory-of-michael-collins%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fjamie33o.github.io%2Fhistory-of-michael-collins%2F&usermedium=all&vextwarning=&warning=1)
+
+![W3C validator homepage](docs/testing/w3c-validator-homepage.png)
+![W3C validator question/add info](docs/testing/w3c-validator-question-add-info.png)
+![W3C validator gallery](docs/testing/w3c-validator-question-gallery.png)
+![W3C jigsaw validator css](docs/testing/w3c-validator-css.png)
+
+### Unfixed Bugs
+
+The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
+
+
 ## Accessibility
 
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
@@ -183,18 +200,6 @@ Issue #3: On the homepage the there was h3 tag before the h2 tag.
 
 Fix: change the h3 to h2 and resized the text with css.
 
-
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie33o.github.io%2Fhistory-of-michael-collins%2F)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fjamie33o.github.io%2Fhistory-of-michael-collins%2F&usermedium=all&vextwarning=&warning=1)
-
-### Unfixed Bugs
-
-The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
 
 ## Deployment
 

@@ -14,7 +14,6 @@ a {
 
 a:hover{
     color: darkgoldenrod;
-    border-bottom: 2px solid darkgoldenrod;;
 }
 
 body {
@@ -33,21 +32,16 @@ h2, h3{
     color: #252525;
     text-align: center;
     margin-bottom: 2px;
-}
-
-h3 {
     text-decoration: underline;
 }
+
+
 
 
 /* header, h1 and logo */
 #main-nav {
     display: flex;
     flex-direction: column;
-  }
-
-  #main-nav a:hover {
-    border: none;
   }
 
 #logo{
@@ -89,8 +83,8 @@ h1 {
 
 .active {
     border-bottom: 2px solid black;
-    
 }
+
 /*table of contents header*/
 #table-contents {
     display: flex;
@@ -98,11 +92,15 @@ h1 {
     margin: 100px 0 100px 0;
 }
 
-  .table-of-contents-links {
+.table-of-contents-links {
     border: 1.5px solid black;
     width: 280px;
     height: 410px;
     padding-left: 20px;
+}
+
+.table-of-contents-links a:hover{
+    border-bottom: 2px solid darkgoldenrod;
 }
 
 #table-contents h2{
@@ -119,6 +117,7 @@ h1 {
     margin: 5px;
 }
 
+
 #main-mc-img {
     height:500px;
     width: 500px;
@@ -127,7 +126,6 @@ h1 {
 }
 
 #mc-fact {
-    float: right;
     border: 1.5px solid black;
     width: 280px;
     padding: 10px;
@@ -169,12 +167,14 @@ h1 {
 
 .container-left img, .container-right img {
     max-height: 280px;
+    width: auto;
     margin: 0 50px 0 50px;
     border-radius: 5%;
     margin-bottom: 10px;
 } 
 
 #signature-img {
+    width: auto;
     height: 50px;
 }
 

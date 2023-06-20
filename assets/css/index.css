@@ -175,7 +175,7 @@ h1 {
 
 #signature-img {
     width: auto;
-    height: 50px;
+    height: 31px;
 }
 
 .main-info-left {
@@ -376,7 +376,7 @@ hr {
     }
     
 
-      #main-mc-img {
+    #main-mc-img {
         height:300px;
         width: 300px;
         margin: 30px auto 30px auto;
@@ -409,6 +409,8 @@ hr {
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
+        width: 159px;
+        height: 31px;
     }
 
     #menu {
@@ -434,7 +436,7 @@ hr {
         justify-content: center;
     }
 
-      #main-mc-img {
+    #main-mc-img {
         max-height:200px;
         max-width: 200px;
         margin: 30px auto 30px auto;

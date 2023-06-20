@@ -1,4 +1,4 @@
-![Logo](assets/images/Michael_Collins_signature.png)
+![Logo](assets/images/logo.png)
 
 Welcome to, 
 # HISTOTY OF MICHAEL COLLINS

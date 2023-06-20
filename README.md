@@ -200,6 +200,12 @@ Issue #3: On the homepage the there was h3 tag before the h2 tag.
 
 Fix: change the h3 to h2 and resized the text with css.
 
+## LightHouse
+
+![Homepage](docs/testing/lighthouse-homepage.png)
+![gallery](docs/testing/lighthouse-gallery.png)
+![question/add info](docs/testing/lighthouse-form-page.png)
+
 
 ## Deployment
 

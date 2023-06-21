@@ -7,7 +7,7 @@ This website provides a comprehensive overview of the life and accomplishments o
 
 The last update to this file was: **June 20th, 2023**
 
-![website on differnt devices](docs/readme_images/website-multi-mockup.png)
+![website on differnt devices](docs/readme_images/mock-up-different-devices.png)
 
 ## Features
 In this section we go over the features of the website, and show examples of the different sections.
@@ -39,7 +39,7 @@ In this section we go over the features of the website, and show examples of the
   - A 404 page will will display if a user navigates to a broken link. 
   - The 404 page will allow the user to navigate back to the main website if they direct to a broken link/missing page, without the need of the browsers back button.
 
-![404 page](docs/readme_images/404.png)
+![404 page](docs/readme_images/404-page.png)
 
 
 ### Homepage

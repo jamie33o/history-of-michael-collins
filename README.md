@@ -247,7 +247,7 @@ Here we credit everywhere we have got content for the website and any code that 
 
 ### Content 
 
-- The text for the Home page was taken from ChatGPT.
+- The text for the Home page was taken [wikileaks](https://en.wikipedia.org/wiki/Michael_Collins_(Irish_leader)).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media

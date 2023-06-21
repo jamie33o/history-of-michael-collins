@@ -366,7 +366,7 @@ hr {
 }
 
 
-/*reponsive design for tablets*/
+/*reponsive design for devices 1200px and less*/
 @media screen and (max-width: 1200px) {
  
     #table-contents {
@@ -401,7 +401,7 @@ hr {
     } 
 } 
 
-/*responsive design for mobile devices*/
+/*responsive design for device 900px and lesss*/
 @media screen and (max-width: 900px) {
     #logo{
         position: absolute; 

@@ -165,12 +165,8 @@ Samsung Galaxy Tablet
 ![W3C validator gallery](docs/testing/w3c-validator-question-gallery.png)
 ![W3C jigsaw validator css](docs/testing/w3c-validator-css.png)
 
-### Unfixed Bugs
 
-The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
-
-
-## Accessibility
+### Accessibility
 
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
@@ -200,11 +196,81 @@ Issue #3: On the homepage the there was h3 tag before the h2 tag.
 
 Fix: change the h3 to h2 and resized the text with css.
 
-## LightHouse Testing
+### LightHouse Testing
 
 ![Homepage](docs/testing/lighthouse-homepage.png)
 ![gallery](docs/testing/lighthouse-gallery.png)
 ![question/add info](docs/testing/lighthouse-form-page.png)
+
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link   | Page to Load    |
+| ---------------   | --------------- |
+| Home              | index.html      |
+| Gallery           | gallery.html    |
+| Question/add info | gallery.html    |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [History of Michael Collins - Questions/Add info](https://jamie33o.github.io/history-of-michael-collins/questions-add-info.html)
+2. Scroll down to the form and input the following data:
+   - Name: John doe
+   - Email: doe.john@test.com
+   - Comment: This is a test.
+3. Click Submit
+4. User should be redirected to thank-you.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+_Scenario Two - Missing Required Field_
+
+Steps to test:
+
+1. Navigate to [History of Michael Collins - Questions/Add info](https://jamie33o.github.io/history-of-michael-collins/questions-add-info.html)
+2. Scroll down to the form and input the following data:
+   - Name:
+   - Email: doe.john@test.com
+   - Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+
+Each item opened a new tab when clicked as expected and correct hover color was present.
+
+
+### Unfixed Bugs
+
+The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
+
 
 
 ## Deployment

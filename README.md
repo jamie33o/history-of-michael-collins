@@ -273,7 +273,9 @@ Each item opened a new tab when clicked as expected and correct hover color was 
 
 ### Unfixed Bugs
 
-The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
+1. The form section is currently not able to be submitted as it needs javascript and python to send the data and as this website is for education purposes we have not learnt these languages yet, but will be updated in the future.
+
+2. On gallery.html lighthouse results for best practices are 85% because of embeded youtube videos.
 
 
 

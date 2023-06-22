@@ -5,7 +5,9 @@ Welcome to,
 
 This website provides a comprehensive overview of the life and accomplishments of Michael Collins, an influential figure in Irish history. From his role in the Irish War of Independence to his political career, this website aims to educate and inform visitors about the significant contributions made by Michael Collins. Here, you will find a wealth of information and resources about Collins, his role in shaping Irish history, and his enduring legacy.
 
-The last update to this file was: **June 20th, 2023**
+The live link can be found here - https://jamie33o.github.io/history-of-michael-collins/ 
+
+The last update to this file was: **June 22th, 2023**
 
 ![website on differnt devices](docs/readme_images/mock-up-different-devices.png)
 
@@ -101,7 +103,9 @@ In this section we go over the features of the website, and show examples of the
 Homepage
 
 ![wireframe design for large screen](docs/readme_images/wireframe-laptop.png)
-![wireframe design for large screen](docs/readme_images/wireframe-tablet-home.png)
+![wireframe design for tablet](docs/readme_images/wireframe-tablet-home.png)
+![wireframe design for gallery](docs/readme_images/wireframe-gallery.png)
+![wireframe design for form](docs/readme_images/wireframe-form.png)
 
 ## Technologies
 
@@ -212,7 +216,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | ---------------   | --------------- |
 | Home              | index.html      |
 | Gallery           | gallery.html    |
-| Question/add info | gallery.html    |
+| Question/add info | question-add-info.html    |
 
 Links on all pages navigated to the correct pages as exptected.
 
@@ -280,11 +284,11 @@ The site was created using the Visual Studio code editor and pushed to github to
 
 The following git commands were used throughout development to push code to the remote repo:
 
-git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+- git add <file> - This command was used to add the file(s) to the staging area before they are committed.
 
-git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+- git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
 
-git push - This command was used to push all committed code to the remote repository on github.
+- git push - This command was used to push all committed code to the remote repository on github.
 
 ### Deployment to Github Pages
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -313,7 +317,7 @@ Here we credit everywhere we have got content for the website and any code that 
 
 ### Content 
 
-- The text for the Home page was taken [wikileaks](https://en.wikipedia.org/wiki/Michael_Collins_(Irish_leader)).
+- The text for the Home page was taken [wikipedia](https://en.wikipedia.org/wiki/Michael_Collins_(Irish_leader)).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
